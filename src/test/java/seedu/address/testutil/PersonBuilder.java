@@ -27,7 +27,7 @@ public class PersonBuilder {
     private Email email;
     private Address address;
     private Set<Tag> tags;
-    private Set<Tutorial> tutorials; 
+    private Set<Tutorial> tutorials;
 
     /**
      * Creates a {@code PersonBuilder} with the default details.
