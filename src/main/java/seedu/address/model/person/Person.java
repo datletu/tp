@@ -9,7 +9,7 @@ import java.util.Set;
 
 import seedu.address.commons.util.ToStringBuilder;
 import seedu.address.model.tag.Tag;
-import seedu.address.model.tutorial.Tutorial; 
+import seedu.address.model.tutorial.Tutorial;
 
 /**
  * Represents a Person in the address book.
@@ -24,7 +24,7 @@ public class Person {
 
     // Data fields
     private final Set<Tag> tags = new HashSet<>();
-    private final Set<Tutorial> tutorialClasses = new HashSet<>(); 
+    private final Set<Tutorial> tutorialClasses = new HashSet<>();
 
     /**
      * Every field must be present and not null.

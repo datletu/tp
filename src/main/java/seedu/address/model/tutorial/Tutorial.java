@@ -1,5 +1,9 @@
 package seedu.address.model.tutorial;
 
+/**
+ * Represents a Tutorial in the address book.
+ * Guarantees: immutable; name is valid as declared in {@link #isValidTutorialName(String)}
+ */
 public class Tutorial {
     public final String tutorialName;
 
