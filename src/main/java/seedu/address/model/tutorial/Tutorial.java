@@ -5,8 +5,8 @@ package seedu.address.model.tutorial;
  * Guarantees: immutable; name is valid as declared in {@link #isValidTutorialName(String)}
  */
 public class Tutorial {
+    public static final String MESSAGE_CONSTRAINTS = "Tutorial names should be alphanumeric";
     public final String tutorialName;
-    public final static String MESSAGE_CONSTRAINTS = "Tutorial names should be alphanumeric";
 
     public Tutorial(String tutorialName) {
         this.tutorialName = tutorialName;
