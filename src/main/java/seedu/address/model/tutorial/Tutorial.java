@@ -6,6 +6,7 @@ package seedu.address.model.tutorial;
  */
 public class Tutorial {
     public final String tutorialName;
+    public final static String MESSAGE_CONSTRAINTS = "Tutorial names should be alphanumeric";
 
     public Tutorial(String tutorialName) {
         this.tutorialName = tutorialName;

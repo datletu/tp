@@ -76,6 +76,14 @@ public class PersonBuilder {
     }
 
     /**
+     * Parses the {@code tutorials} into a {@code Set<Tutorial>} and set it to the {@code Person} that we are building.
+     */
+    public PersonBuilder withTutorials(String ... tutorials) {
+        this.tutorials = SampleDataUtil.getTutorialSet(tutorials);
+        return this;
+    }
+
+    /**
      * Sets the {@code Phone} of the {@code Person} that we are building.
      */
     public PersonBuilder withPhone(String phone) {
