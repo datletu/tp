@@ -266,6 +266,7 @@ Format: `load [FILE_NAME]`
 * The file must be a valid JSON file containing address book data.
 * If the file is not found or the format is invalid, an error message will be displayed, and the current data will remain unchanged.
 * Please take note that once a saved file is loaded, the current addressbook if not saved will be erased. Make sure to save the current addressbook before loading if this is undesirable.
+* Please take note to make sure that the json file contains all the attributes of a person (except for `tags` and `tutorial`) in order for load to work properly. Failure to do this will result in errors.
 
 Examples:
 * `load backup` - Loads data from `backup.json`.
